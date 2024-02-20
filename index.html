@@ -11,6 +11,42 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg nav-bg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/box-seam.svg" alt="logo" height="30px"> Doggle</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
   <!-- Title -->
   <section id="title" class="gradient-background">
@@ -56,12 +92,9 @@
             </svg>
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-              probably just keep going until we run out of words.</p>
-            <a href="#" class="btn btn-primary">
-              Primary button
-            </a>
+            <h3 class="fs-2 text-body-emphasis">Easy to use.</h3>
+            <p>So easy to use, even your dog could do it.</p>
+
           </div>
         </div>
         <div class="col d-flex align-items-start">
@@ -76,12 +109,9 @@
             </svg>
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-              probably just keep going until we run out of words.</p>
-            <a href="#" class="btn btn-primary">
-              Primary button
-            </a>
+            <h3 class="fs-2 text-body-emphasis">Elite Clientele.</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+
           </div>
         </div>
         <div class="col d-flex align-items-start">
@@ -94,12 +124,8 @@
             </svg>
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-              probably just keep going until we run out of words.</p>
-            <a href="#" class="btn btn-primary">
-              Primary button
-            </a>
+            <h3 class="fs-2 text-body-emphasis">Guaranteed to work.</h3>
+            <p>Find the love of your dog's life or your money back.</p>
           </div>
         </div>
       </div>
@@ -110,8 +136,9 @@
     <div class="my-5">
       <div class="p-5 text-center bg-body-tertiary">
         <div class="container py-5">
-          <h2 class="text-body-emphasis">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</h2>
-          <img class="profile-img mt-5" src="./images/dog-img.jpg" alt="dog-img" height="100">
+          <h2 class="text-body-emphasis">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on
+            TinDog. Woof."</h2>
+          <img class="profile-img mt-5" src="./images/dog-img.jpg" alt="dog-img">
           <p class="col-lg-8 mx-auto lead mt-2">
             Pebbles, New York
           </p>
@@ -166,7 +193,8 @@
               <h4 class="my-0 fw-normal">Labrador</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15/mo<small class="text-body-secondary fw-light">/mo</small></h1>
+              <h1 class="card-title pricing-card-title">$15/mo<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Unlimited Matches</li>
                 <li>Unlimited Messages</li>
@@ -202,7 +230,7 @@
         <div class="col mb-3">
           <p class="text-body-secondary">© 2023</p>
         </div>
-    
+
         <div class="col mb-3">
           <h5>Section</h5>
           <ul class="nav flex-column">
@@ -213,7 +241,7 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
           </ul>
         </div>
-    
+
         <div class="col mb-3">
           <h5>Section</h5>
           <ul class="nav flex-column">
@@ -224,7 +252,7 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
           </ul>
         </div>
-    
+
         <div class="col mb-3">
           <h5>Section</h5>
           <ul class="nav flex-column">
@@ -238,6 +266,10 @@
       </footer>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
